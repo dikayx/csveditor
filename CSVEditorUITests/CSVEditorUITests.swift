@@ -23,12 +23,22 @@ final class CSVEditorUITests: XCTestCase {
     }
 
     @MainActor
-    func testExample() throws {
+    func testAppLaunch() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    @MainActor
+    func testFileSelectionDialogOpens() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        // Check if the Finder window (file selection dialog) appears
+        let finderDialog = XCUIApplication(bundleIdentifier: "com.apple.finder")
+        XCTAssertTrue(finderDialog.waitForExistence(timeout: 5), "File selection dialog did not appear")
     }
 
     @MainActor
