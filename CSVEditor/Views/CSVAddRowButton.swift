@@ -19,7 +19,7 @@ struct CSVAddRowButton: View {
         } label: {
             Label("Add Row", systemImage: "plus")
         }
-        .disabled(viewModel.headers.isEmpty) // Disable if no headers exist
+        .disabled(viewModel.headers.isEmpty)
     }
 }
 
