@@ -1,12 +1,16 @@
 # CSV Editor
 
 <p align=center>
-    <img src="CSVEditor//Assets.xcassets/AppIcon.appiconset/CSVEditor.png" alt="App Icon" width="128" height="128">
+    <img src="CSVEditor/Assets.xcassets/AppIcon.appiconset/CSVEditor.png" alt="App Icon" width="128" height="128">
 </p>
 
 A simple and lightweight CSV editor for macOS, designed for quick and efficient editing of CSV files. Easily open, modify, and save your CSV data with an intuitive interface.
 
 ## Features
+
+<p align=center>
+    <img src="Assets/Screenshot.png" alt="App Screenshot" width="800">
+</p>
 
 -   Open and edit existing CSV files
 -   Add, edit, and delete rows and columns
