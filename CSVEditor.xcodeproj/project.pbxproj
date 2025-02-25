@@ -64,6 +64,11 @@
 			path = CSVEditorUITests;
 			sourceTree = "<group>";
 		};
+		65AED2742D6B1BC000DE36AE /* Assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +100,7 @@
 		6556D1A22D4F5F4F0064AEA8 = {
 			isa = PBXGroup;
 			children = (
+				65AED2742D6B1BC000DE36AE /* Assets */,
 				65F66F802D58A8B2006328AF /* README.md */,
 				6556D1AD2D4F5F4F0064AEA8 /* CSVEditor */,
 				6556D1BF2D4F5F510064AEA8 /* CSVEditorTests */,
@@ -130,6 +136,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6556D1AD2D4F5F4F0064AEA8 /* CSVEditor */,
+				65AED2742D6B1BC000DE36AE /* Assets */,
 			);
 			name = CSVEditor;
 			packageProductDependencies = (

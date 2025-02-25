@@ -1,13 +1,17 @@
 # CSV Editor
 
+<p align=center>
+    <img src="CSVEditor//Assets.xcassets/AppIcon.appiconset/CSVEditor.png" alt="App Icon" width="128" height="128">
+</p>
+
 A simple and lightweight CSV editor for macOS, designed for quick and efficient editing of CSV files. Easily open, modify, and save your CSV data with an intuitive interface.
 
 ## Features
 
-- Open and edit existing CSV files
-- Add, edit, and delete rows and columns
-- Lightweight and fast performance
-- Seamless macOS integration
+-   Open and edit existing CSV files
+-   Add, edit, and delete rows and columns
+-   Lightweight and fast performance
+-   Seamless macOS integration
 
 ## Getting Started
 
@@ -20,9 +24,9 @@ A simple and lightweight CSV editor for macOS, designed for quick and efficient 
 
 ### Usage
 
-- Open a CSV file by double-clicking or using **File > Open**.
-- Modify data by selecting and editing cells.
-- Save changes via **File > Save** or **Cmd + S**.
+-   Open a CSV file by double-clicking or using **File > Open**.
+-   Modify data by selecting and editing cells.
+-   Save changes via **File > Save** or **Cmd + S**.
 
 ## License
 
@@ -35,4 +39,3 @@ This app is inspired by Karin Prater's tutorial. Check out the original reposito
 ---
 
 For any issues or feature requests, feel free to open an [issue](https://github.com/dikayx/csveditor/issues) on GitHub!
-
